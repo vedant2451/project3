@@ -27,10 +27,6 @@ def optional_header_param(number1: str = Header(None)):# None for optional value
 
 #dependency.py
 
-
-
-
-
 def sum(a:int,b:int):
     return a+b
 
@@ -41,7 +37,6 @@ def get_sum(answer:int=Depends(sum)):
 
 
 #cookies.py
-
 
 
 # Endpoint to set a cookie
